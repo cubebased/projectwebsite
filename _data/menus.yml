@@ -1,0 +1,51 @@
+primary:
+  - title: Main Menu
+    subfolderitems:
+      - name: "Contribute"
+        url: "../"
+        weight: 2
+      - name: "Documentation"
+        url: "#"
+        weight: 3
+      - name: "White Paper"
+        url: "#"
+        weight: 3
+
+footer_menu_one_title: General
+menu_one:
+  - title: "About"
+    url: "#"
+
+  - title: "FAQs"
+    url: "#"
+
+  - title: "Support"
+    url: "#"
+
+  - title: "Service Status"
+    url: "#"
+
+footer_menu_two_title: Developers
+menu_two:
+  - title: "Documentation"
+    url: "../"
+
+  - title: "Game Developing"
+    url: "#"
+
+  - title: "Github"
+    url: "#"
+
+  - title: "Pricing"
+    url: "/pricing/"
+
+  - title: "API"
+    url: "#"
+
+footer_menu_three_title: Technology
+menu_three:
+  - title: "EOS"
+    url: "#"
+
+  - title: "IPFS"
+    url: "#"

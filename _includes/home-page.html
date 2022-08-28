@@ -1,0 +1,208 @@
+<!-- hero section -->
+<section class="hero-section">
+    <div class="front-animation"></div>
+    <div class="container">
+        <div class="row gutter-30">
+            {% if page.intro_image %}
+            <div class="col-lg-3">
+                <div class="hero-image-wrapper">
+                    <img class="hero-image img-fluid" src="{{ page.intro_image | relURL }}" alt="{{ page.title }}">
+                </div>
+            </div>
+            {% endif %}
+            <div class="col-lg-9">
+                <div class="banner-content">
+                    <h1 class="banner-title">
+                        the decentralized Media Plattform build on open-source
+                    </h1>
+                    <p class="lead">
+                        a FREE PLATTFORM with A self managing community AND without censorship 
+                    </p>
+                    <div class="btn-groups">
+                        <a href="{{site.baseurl}}/contact/" class="btn get-btn mb-4">Open App</a>
+                        <a href="{{site.baseurl}}/contact/" class="btn btn-work mb-4">How it Wokrs</a>
+                    </div>
+                  
+                </div>
+            </div> <!-- ./col -->
+        </div> <!-- ./row -->
+    </div> <!-- ./container -->
+</section>
+<!-- end hero section -->
+<section class="section-padding key-section bg-dark-alt feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">
+                    Key Features
+                </h2>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/censorship.png" alt="censorship">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            no censorship - Freedom of speech
+                        </h3>
+                        <p>
+                            All words and opinions are allowed. <br/>
+                            Only media content have restrictions for ethical reasons
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/dollar_coin.png" alt="dollar_coin">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            earn money with good content
+                        </h3>
+                        <p>
+                            Generating good content is rewarded with tokens tradeable on crypto exchange
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/blocks_v2.png" alt="blocks_v2">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            decentralized 
+                        </h3>
+                        <p>
+                            Media content is decentralized on the IPFS network. 
+                            All other data is decentralized on the Bockchain
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/money_bag.png" alt="money_bag">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            no transaction fees
+                        </h3>
+                        <p>
+                            Sending tokens are free of charge
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">
+                    Used Technologies 
+                </h2>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/nopath-kopie.png" alt="nopath">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            ipfs.tech
+                        </h3>
+                        <p>
+                            The InterPlanetary File System (IPFS) is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. 
+                            IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="feature-item">
+                    <div class="feature-img">
+                        <img src="/assets/images/web3storage.png" alt="web3storage">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            web3.storage
+                        </h3>
+                        <p>
+                            Web3.Storage is a service to make building on top of Filecoin.
+                            Content uploaded to Web3.Storage is pinned redundantly three times to an IPFS Cluster of 18+ geographically distributed nodes.                                
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding bg-dark-alt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">
+                    Road map
+                </h2>
+            </div>
+            <div class="col-md-12">
+                <div class="timeline">
+                    <div class="timeline-item">
+                      <h3 class="date">January 2023</h3>
+                      <div class="content">
+                        <h3 class="time-title">Testnet 1.0</h3>
+                        <p>
+                            Prove of concept. testing the key features of the Plattform (Upload, vote, report, reward)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="date">july 2023</h3>
+                        <div class="content">
+                          <h3 class="time-title">Testnet 1.XX</h3>
+                          <p>
+                              A code audit to ensure security and the first game
+                          </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="date">January 2024</h3>
+                        <div class="content">
+                          <h3 class="time-title">Launch of Mainnet</h3>
+                          <p>
+                              launching the mainet and listing on crypto exchange plattforms
+                          </p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section footer-top bg-dark-alt">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="footer-image">
+                    <img src="/assets/images/footer-bg.png" alt="footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-wrap">
+        <img src="/assets/images/wellen.png" alt="wellen">
+        <img src="/assets/images/wellen.png" alt="wellen">
+        <img src="/assets/images/wellen.png" alt="wellen">
+    </div>
+    <h2>
+        Made with <span>&hearts;</span> for the internet
+    </h2>
+</section>
