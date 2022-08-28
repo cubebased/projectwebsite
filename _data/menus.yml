@@ -2,10 +2,10 @@ primary:
   - title: Main Menu
     subfolderitems:
       - name: "Contribute"
-        url: "../"
+        url: "https://doc.cubebased.com/participate/overview/"
         weight: 2
       - name: "Documentation"
-        url: "#"
+        url: "https://doc.cubebased.com/"
         weight: 3
       - name: "White Paper"
         url: "#"

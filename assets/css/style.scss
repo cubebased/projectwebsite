@@ -1961,7 +1961,7 @@ blockquote {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   background-color: transparent;
+   background-color: black;
    .btn-groups {
       .btn {
          background: #2AAF37;
@@ -2694,7 +2694,7 @@ blockquote {
       display: flex;
       overflow: hidden;
       img {
-         margin: 0 -11px;
+         margin: 0 0px;
       }
    }
 }
@@ -2944,9 +2944,17 @@ blockquote {
    position: relative;
    .front-animation {
       position: absolute;
-      left: 0;
       top: 0;
-      width: 100%;
+
+      left: 0;
+      right: 0;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      max-width: 1920px;
+      padding: 10px;
+      filter: blur(8px);
       &::after{
          content: '';
          position: absolute;
