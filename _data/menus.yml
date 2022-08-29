@@ -14,38 +14,38 @@ primary:
 footer_menu_one_title: General
 menu_one:
   - title: "About"
-    url: "#"
+    url: "https://doc.cubebased.com/"
 
   - title: "FAQs"
     url: "#"
 
   - title: "Support"
-    url: "#"
+    url: "https://doc.cubebased.com/"
 
   - title: "Service Status"
-    url: "#"
+    url: "https://doc.cubebased.com/"
 
 footer_menu_two_title: Developers
 menu_two:
   - title: "Documentation"
-    url: "../"
+    url: "https://doc.cubebased.com/"
 
   - title: "Game Developing"
     url: "#"
 
   - title: "Github"
-    url: "#"
-
-  - title: "Pricing"
-    url: "/pricing/"
+    url: "https://github.com/cubebased"
 
   - title: "API"
-    url: "#"
+    url: "https://doc.cubebased.com/"
 
 footer_menu_three_title: Technology
 menu_three:
   - title: "EOS"
-    url: "#"
+    url: "https://eos.io/"
 
   - title: "IPFS"
-    url: "#"
+    url: "https://ipfs.tech/"
+
+  - title: "Web3 Storage"
+    url: "https:/web3.storage/"
