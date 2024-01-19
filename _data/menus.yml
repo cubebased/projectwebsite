@@ -8,7 +8,7 @@ primary:
         url: "https://doc.cubebased.com/"
         weight: 3
       - name: "White Paper"
-        url: "#"
+        url: "https://doc.cubebased.com/whitepaper/"
         weight: 3
 
 footer_menu_one_title: General
@@ -17,13 +17,13 @@ menu_one:
     url: "https://doc.cubebased.com/"
 
   - title: "FAQs"
-    url: "#"
+    url: "https://doc.cubebased.com/faq/"
 
   - title: "Support"
     url: "https://doc.cubebased.com/"
 
   - title: "Service Status"
-    url: "https://doc.cubebased.com/"
+    url: "https://app.cubebased.com/status"
 
 footer_menu_two_title: Developers
 menu_two:
@@ -31,7 +31,7 @@ menu_two:
     url: "https://doc.cubebased.com/"
 
   - title: "Game Developing"
-    url: "#"
+    url: "https://doc.cubebased.com/guides/game-developing/"
 
   - title: "Github"
     url: "https://github.com/cubebased"
