@@ -8,7 +8,7 @@ primary:
         url: "https://doc.cubebased.com/"
         weight: 3
       - name: "White Paper"
-        url: "https://doc.cubebased.com/whitepaper/"
+        url: "https://doc.cubebased.com/whitepaper"
         weight: 3
 
 footer_menu_one_title: General
